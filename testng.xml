@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+		<parameter name="platformName" value="Android" />
+		<parameter name="manufacturer" value="Samsung" />
+		<parameter name="platformVersion" value="7.0" />
+		<parameter name="model" value="Galaxy S7 Edge" />
+		<parameter name="deviceName" value="C538899C" />
+		<parameter name="appID" value="dummy" />
+		<classes>
+      <class name="DemoIVRPackage.DemoIVR"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
